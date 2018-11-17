@@ -1,2 +1,4 @@
-# 100-Language-FizzBuzz
+# 100 Language FizzBuzz
 FizzBuzz in Hundreds of different languages
+
+SimpleBinary and Dandigit
