@@ -1,4 +1,4 @@
-﻿Module Module1
+Module VBFizzBuzz
 
     Sub Main()
         Dim x As Int32
