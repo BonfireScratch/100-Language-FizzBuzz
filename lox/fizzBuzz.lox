@@ -1,0 +1,19 @@
+// FizzBuzz in Dandigit Lox
+
+fun fizzBuzz(count) {
+    for (var i = 1; i <= count; i = i + 1) {
+        if (i % 3 == 0) {
+            put("Fizz")
+        }
+        if (i % 5 == 0) {
+            put("Buzz")
+        }
+        if (i % 3 != 0 and i % 5 != 0) {
+            put(i)
+        }
+        print("")
+    }
+}
+
+put("FizzBuzz: Enter an integer: ")
+fizzBuzz(num(input()))
