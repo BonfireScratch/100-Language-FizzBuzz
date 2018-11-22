@@ -11,4 +11,5 @@ while (y <= x) {
         document.write(y);
     } 
     y++;
+    document.write(" ")
 }
