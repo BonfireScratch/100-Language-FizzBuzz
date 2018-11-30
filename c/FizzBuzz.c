@@ -1,14 +1,9 @@
 // FizzBuzz in C
-// Compile with "gcc -lm FizzBuzz.c"
+// Compile with "gcc FizzBuzz.c"
 
-#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-int numDigits(int number) {
-    return floor(log10(abs(number))) + 1;
-}
 
 void fizzBuzz(int min, int max) {
     for (int current = min; current <= max; ++current) {
@@ -19,10 +14,7 @@ void fizzBuzz(int min, int max) {
             printf("Buzz");
         }
         if (current % 3 != 0 && current % 5 != 0) {
-            char *currentStr = malloc(sizeof(char) * numDigits(current));
-            sprintf(currentStr, "%d", current);
-            printf("%s", currentStr);
-            free(currentStr);
+            printf("%d", current);
         }
 
         printf("\n");
