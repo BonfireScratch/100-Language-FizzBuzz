@@ -12,8 +12,7 @@ namespace ConsoleApp1
         {
             Console.Write("Fizzbuzz: Enter an integer > ");
             int x = Convert.ToInt32(Console.ReadLine());
-            int y = 1;
-            while (y <= x)
+            for (int y = 1; y <= x; ++y)
             {
                 if (y % 3 == 0)
                 {
@@ -27,7 +26,6 @@ namespace ConsoleApp1
                 {
                     Console.Write(y);
                 }
-                y++;
                 Console.Write("\n");
             }
             Console.ReadKey();
