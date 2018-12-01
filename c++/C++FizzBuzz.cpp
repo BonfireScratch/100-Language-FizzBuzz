@@ -3,9 +3,8 @@
 int main() {
 	std::cout << "FizzBuzz - Enter an Integer > ";
 	int x;
-	int y = 1;
 	std::cin >> x;
-	while (y <= x) {
+	for (int y = 1; y <= x; ++y) {
 		if (y % 3 == 0) {
 			std::cout << "Fizz";
 		}
@@ -16,7 +15,6 @@ int main() {
 			std::cout << y;
 		}
 		std::cout << "\n";
-		++y;
 	}
 	std::cin.ignore().get();
 	return 0;
