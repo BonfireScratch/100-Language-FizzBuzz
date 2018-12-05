@@ -20,7 +20,7 @@ public class JavaFizzBuzz {
             if(y % 5 != 0 && y % 3 == 0) {
                 System.out.println(y);
             }
-            y++;
+            ++y;
         }
     }
     
