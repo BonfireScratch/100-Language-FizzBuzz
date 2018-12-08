@@ -12,7 +12,9 @@
             05 I-MOD-3         PIC S99   VALUE ZERO.
             05 I-MOD-5         PIC S99   VALUE ZERO.
         PROCEDURE DIVISION.
-        PERFORM VARYING I FROM 1 BY 1 UNTIL I IS GREATER THAN 100
+        DISPLAY "Enter an integer".
+        ACCEPT NUM FROM CONSOLE.
+        PERFORM VARYING I FROM 1 BY 1 UNTIL I IS GREATER THAN NUM
             DIVIDE I BY 15 GIVING ignored REMAINDER I-MOD-15
             IF I-MOD-15 IS EQUAL TO ZERO
                 DISPLAY "FizzBuzz"
