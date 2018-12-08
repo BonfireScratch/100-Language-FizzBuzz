@@ -1,6 +1,8 @@
 object fizzbuzz
 {
     def main(args: Array[String]) = {
+        println("Enter an integer")
+        val a = scala.io.StdIn.readLine()
         for (i <- (1 to 100)) {
             if (i % 15 == 0) {
                 println("FizzBuzz")
