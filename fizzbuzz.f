@@ -1,6 +1,7 @@
        program FizzBuzz
-
-       do 1 i = 1, 100
+       
+       read (*,*) w
+       do 1 i = 1, w
 
        if (mod(i, 15) .eq. 0) then
        print '(a)', 'FizzBuzz'
