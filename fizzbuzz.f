@@ -1,5 +1,6 @@
        program FizzBuzz
        
+       print *, "Enter an integer"
        read (*,*) w
        do 1 i = 1, w
 
