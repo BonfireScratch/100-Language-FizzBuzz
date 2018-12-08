@@ -1,4 +1,6 @@
-for i in 1...100 {
+println("Enter an integer")
+let response = readLine()
+for i in 1...response {
     if i % 15 == 0 {
         print("FizzBuzz")
     }
