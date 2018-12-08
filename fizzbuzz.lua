@@ -1,6 +1,7 @@
 print("Enter an integer")
 s = io.read("*n")
-for i = 1, s do
+a = tonumber(s)
+for i = 1, a do
     if i % 15 == 0 then
         print("FizzBuzz")
     elseif i % 3 == 0 then
