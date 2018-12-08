@@ -1,4 +1,5 @@
-for i = 1, 100 do
+s = io.read("*n")
+for i = 1, s do
     if i % 15 == 0 then
         print("FizzBuzz")
     elseif i % 3 == 0 then
