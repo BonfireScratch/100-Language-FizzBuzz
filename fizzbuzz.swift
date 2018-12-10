@@ -1,4 +1,4 @@
-println("Enter an integer")
+print("Enter an integer")
 let response = readLine()
 let x = response.toInt() 
 for i in 1...x {
