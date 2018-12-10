@@ -1,6 +1,7 @@
 println("Enter an integer")
 let response = readLine()
-for i in 1...response {
+let x = response.toInt() 
+for i in 1...x {
     if i % 15 == 0 {
         print("FizzBuzz")
     }
