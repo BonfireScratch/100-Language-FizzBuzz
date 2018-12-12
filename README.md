@@ -54,3 +54,5 @@ Scala by BonfireScratch
 Dart by BonfireScratch
 
 Crystal by BonfireScratch
+
+Groovy by BonfireScratch
