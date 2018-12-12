@@ -10,6 +10,7 @@ Look at the languages bar
 Batch by SimpleBinary
 
 Java by SimpleBinary
+
 Perl by SimpleBinary
 
 PowerShell by SimpleBinary
@@ -51,3 +52,5 @@ COBOL by BonfireScratch
 Scala by BonfireScratch
 
 Dart by BonfireScratch
+
+Crystal by BonfireScratch
