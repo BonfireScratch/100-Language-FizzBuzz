@@ -4,7 +4,7 @@ use std::io;
 use std::io::Write;
 
 fn fizz_buzz(min: i32, max: i32) {
-    for current in min..max + 1 {
+    for current in min..=max {
         match (current % 5 == 0, current % 3 == 0) {
             (true, true) => println!("FizzBuzz"),
             (false, true) => println!("Buzz"),

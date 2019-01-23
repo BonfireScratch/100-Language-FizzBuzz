@@ -1,0 +1,19 @@
+`FizzBuzz in Solar`
+
+(def fizzBuzz 
+    (lambda (min max)
+        (def current min)
+        (while (<= current max)
+            (if (= (% current 15) 0)
+                (print "FizzBuzz")
+            ) (elif (= (% current 5) 0)
+                (print "Buzz")
+            ) (elif (= (% current 3) 0)
+                (print "Fizz")
+            ) (else (print current))           
+            (set current (+ current 1))
+        )
+    )
+)
+
+(fizzBuzz 1 (int (get "FizzBuzz: Enter an Integer > ")))

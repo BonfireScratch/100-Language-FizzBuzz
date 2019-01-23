@@ -3,4 +3,4 @@
 
 Look at the languages bar
 
-- SimpleBinary, Dandigit, -Bonfire-
+- SimpleBinary, Dandigit and BonfireScratch
